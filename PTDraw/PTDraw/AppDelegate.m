@@ -22,8 +22,20 @@
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    /**
+     s.name: 库的名称
+     s.version:版本号
+     s.summary:摘要
+     s.description：描述部分，要比摘要长
+     s.homepage：源地址，也就是私有库对应的远程地址
+     s.license:执照，一般选择默认
+     s.author:作者名称
+     s.platform：支持平台
+     s.source：来源
+     s.source_files：文件路径
+     s.framework/s.frameworks:依赖的系统的framework
+     s.dependency:依赖的库
+     */
 }
 
 
