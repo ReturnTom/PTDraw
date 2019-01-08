@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrawRectView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    DrawRectView *test = [[DrawRectView alloc]initWithFrame:self.view.frame];
+    test.backgroundColor=[UIColor blackColor];
+    [self.view addSubview:test];
 }
 
 
